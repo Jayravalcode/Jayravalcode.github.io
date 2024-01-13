@@ -25,6 +25,8 @@ The objective is to analyze various elements related to truck transportation.
       - Fill in the name where the column name is unnamed.
       - Change the name of the required column.
       ![Screenshot 2024-01-12 225143](https://github.com/Jayravalcode/Truck_Travel_prediction/assets/100700949/e0c10606-b663-4895-bee9-a5af5738e2c4)
+4. **Library are used**
+   - pandas:- for , numpy, matplotlib, seaborn, and statsmodels.tsa.arima.model
 
 ## Questions to Address
 
@@ -57,5 +59,16 @@ The objective is to analyze various elements related to truck transportation.
 8. **Total distance travelled by each truck as well as all trucks combined.**
    - calculates the total loaded and empty travel distances for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column. It then prints the         overall sum of loaded and empty travel distances for all trucks, rounded to two decimal places.
 9. **Predict the future production capacity for each truck (Prediction & forecasting needs to be made for next 15 days)**
-    - 
+     1. Import Libraries:
+         Import necessary libraries for data manipulation, plotting, ARIMA modeling, and multiprocessing.
+     2. Prepare DataFrame:
+         Convert date and time columns to a datetime format and set them as the DataFrame index.
+     3.ARIMA Model Parameters:
+         Set parameters for the ARIMA model, including the order and the number of steps to forecast.
+     4. Define Forecasting Function:
+         Create a function that takes a truck's name, performs time series forecasting using ARIMA, and plots actual vs. forecasted values.
+     5. Multiprocessing for Parallelization:
+         Use multiprocessing to parallelize the forecasting process for each unique truck.
+     6.Results:
+         Store and display the results, including the truck's name and the forecasted values.
 
