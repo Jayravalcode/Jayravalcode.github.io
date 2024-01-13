@@ -54,4 +54,6 @@ The objective is to analyze various elements related to truck transportation.
    -  identifies the row with the maximum value in the "EMTY_STOP_TM" column in the DataFrame df3. It then extracts the truck and time information from that row and prints a statement with the truck and its             corresponding maximum stop time in the empty state.
    -  The truck with the maximum stop time in empty state is: Truck 16
          The corresponding time is: 12149.0
+8. **Total distance travelled by each truck as well as all trucks combined.**
+   - calculates the total loaded and empty travel distances for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column. It then prints the         overall sum of loaded and empty travel distances for all trucks, rounded to two decimal places.
 
