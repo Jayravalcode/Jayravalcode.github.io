@@ -69,6 +69,6 @@ The objective is to analyze various elements related to truck transportation.
          Create a function that takes a truck's name, performs time series forecasting using ARIMA, and plots actual vs. forecasted values.
      5. Multiprocessing for Parallelization:
          Use multiprocessing to parallelize the forecasting process for each unique truck.
-     6.Results:
+     6. Results:
          Store and display the results, including the truck's name and the forecasted values.
 
