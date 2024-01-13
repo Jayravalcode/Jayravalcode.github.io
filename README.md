@@ -47,5 +47,11 @@ The objective is to analyze various elements related to truck transportation.
    - calculates the total empty travel distance for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column and summing up the "EMTY_TRAV_DSTNC" column for each group.
    - It then identifies the truck with the maximum total empty travel distance using idxmax() to get the corresponding index and max() to get the maximum value.
    - ![image](https://github.com/Jayravalcode/Truck_Travel_prediction/assets/100700949/49e8d619-4040-4173-968a-7551d345dfd4)
-   
+6. **Show visually which truck has Max and Min Gear Shifts per Mile**
+   - calculates and prints the total gear shifts per mile for each truck in the DataFrame df3. Additionally, it identifies and prints the truck with the maximum and minimum gear shifts per mile along with their        respective values.
+      ![image](https://github.com/Jayravalcode/Truck_Travel_prediction/assets/100700949/b1ea7ed5-9c3e-496d-9dc4-9a9434d9452e)
+7. **Which truck has max stop time in empty**
+   -  identifies the row with the maximum value in the "EMTY_STOP_TM" column in the DataFrame df3. It then extracts the truck and time information from that row and prints a statement with the truck and its             corresponding maximum stop time in the empty state.
+   -  The truck with the maximum stop time in empty state is: Truck 16
+         The corresponding time is: 12149.0
 
