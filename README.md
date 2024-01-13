@@ -86,3 +86,8 @@ The objective is to analyze various elements related to truck transportation.
          Print the truck with the lowest production prediction and its forecasted value.
          Print the truck with the highest production prediction and its forecasted value.
          If there are no valid results, print a message indicating the absence of valid forecasts.
+11. **Recommendation settings for each parameter to reduce fuel consumption.**
+      1. first we check in the dataset that which matrix(data) is related to fuel consumption.
+      2. Analyze the truck driving tunning like gear shifting, accelaration, break time and related parameters.
+      3. Then perform analysis to check which parameter are more effective to reduce fuel consumption.
+      4. Also check and analyze the distance and route coverd by the truck.
