@@ -38,4 +38,14 @@ The objective is to analyze various elements related to truck transportation.
    - The provided code calculates the average payload weight for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column and computing the mean of the "PAYLD_WT" column for each group.
 
 3. **Tones per Gallon per distance travelled matrix for each truck and all trucks:**
-   - Here we use the formula to calculate the tons per gallon like total weight
+   - For example tons per gallon is (x). for finding Tones per gallon per distance we divided the tons per gallon by distance coverd by truck. we consider loaded travel distance for finding the tones per gallon        per distance.
+   - use _replace(0, np.nan)_ to replace nan value with 0.
+4. **Which truck is running most efficient and which truck is running most inefficient as per as the matrix in item number 3?**
+   - calculates the average efficiency (Tons per Gallon per Distance) for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column.
+   - To identify the most efficient and inefficient trucks, it then determines the truck with the highest average efficiency using idxmax() and the truck with the lowest average efficiency using idxmin().
+5. **Show Visually which truck has travelled empty most distance.**
+   - calculates the total empty travel distance for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column and summing up the "EMTY_TRAV_DSTNC" column for each group.
+   - It then identifies the truck with the maximum total empty travel distance using idxmax() to get the corresponding index and max() to get the maximum value.
+   - ![image](https://github.com/Jayravalcode/Truck_Travel_prediction/assets/100700949/49e8d619-4040-4173-968a-7551d345dfd4)
+   
+
