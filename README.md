@@ -63,7 +63,7 @@ The objective is to analyze various elements related to truck transportation.
          Import necessary libraries for data manipulation, plotting, ARIMA modeling, and multiprocessing.
      2. Prepare DataFrame:
          Convert date and time columns to a datetime format and set them as the DataFrame index.
-     3.ARIMA Model Parameters:
+     3. ARIMA Model Parameters:
          Set parameters for the ARIMA model, including the order and the number of steps to forecast.
      4. Define Forecasting Function:
          Create a function that takes a truck's name, performs time series forecasting using ARIMA, and plots actual vs. forecasted values.
