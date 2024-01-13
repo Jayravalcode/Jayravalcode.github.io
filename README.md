@@ -73,16 +73,16 @@ The objective is to analyze various elements related to truck transportation.
          Store and display the results, including the truck's name and the forecasted values.
 
 10. **Identify truck which has lowest and highest production prediction.**
-   1. Filter Results:
-      Exclude None results from the list of forecasting outcomes.
-   2. Check for Valid Results:
-      Ensure there are remaining valid results after filtering.
-   3. Find Min and Max Forecasts:
-      Identify the truck with the lowest production prediction based on the minimum forecasted value.
-      Identify the truck with the highest production prediction based on the maximum forecasted value.
-   4. Extract Information:
-      Retrieve the names of trucks and their respective forecasted values.
-   5. Print Results:
-      Print the truck with the lowest production prediction and its forecasted value.
-      Print the truck with the highest production prediction and its forecasted value.
-      If there are no valid results, print a message indicating the absence of valid forecasts.
+      1. Filter Results:
+         Exclude None results from the list of forecasting outcomes.
+      2. Check for Valid Results:
+         Ensure there are remaining valid results after filtering.
+      3. Find Min and Max Forecasts:
+         Identify the truck with the lowest production prediction based on the minimum forecasted value.
+         Identify the truck with the highest production prediction based on the maximum forecasted value.
+      4. Extract Information:
+         Retrieve the names of trucks and their respective forecasted values.
+      5. Print Results:
+         Print the truck with the lowest production prediction and its forecasted value.
+         Print the truck with the highest production prediction and its forecasted value.
+         If there are no valid results, print a message indicating the absence of valid forecasts.
