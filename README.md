@@ -56,4 +56,6 @@ The objective is to analyze various elements related to truck transportation.
          The corresponding time is: 12149.0
 8. **Total distance travelled by each truck as well as all trucks combined.**
    - calculates the total loaded and empty travel distances for each truck by grouping the DataFrame (df3) based on the "MACH_SER_NO" column. It then prints the         overall sum of loaded and empty travel distances for all trucks, rounded to two decimal places.
+9. **Predict the future production capacity for each truck (Prediction & forecasting needs to be made for next 15 days)**
+    - 
 
