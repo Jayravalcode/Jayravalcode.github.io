@@ -30,3 +30,4 @@ The objective is to analyze various elements related to truck transportation.
 1. **Total Tons Moved:**
    - Determine the total tons moved by each truck.
    - Calculate the combined total tons moved by all trucks.
+   - The code groups the DataFrame (df3) by the "MACH_SER_NO" column, calculates the sum of "PAYLD_WT" for each truck, and computes the combined total tons moved by summing up all trucks' payload weights. The          results are rounded to two decimal places and displayed.
